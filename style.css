@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; 
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    background-color: #9e9d9c;
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+}
+
+/* // 0 = none
+// 1 = start : blauw
+// 2 = entry : groen
+// 3 = no_entry : rood
+// 4 = bonus : paars
+// 5 = end : zwart */
+.start{
+    background-color: blue;
+}
+
+.entry{
+    background-color: green;
+}
+
+.no_entry{
+    background-color: red;
+}
+
+.bonus{
+    background-color: purple;
+}
+
+.end{
+    background-color: black;
+}
+
